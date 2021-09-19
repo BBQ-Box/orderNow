@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Now!</title>
     <style>
+      html,
+      body {
+        box-sizing: border-box;
+        width: 100%;
+      }
       body {
         display: flex;
         flex-direction: column;
@@ -18,7 +23,7 @@
         margin: 30px;
       }
       img {
-        width: 80%;
+        width: 30%;
         padding: 20px;
       }
       a {
@@ -31,6 +36,9 @@
         }
       }
       @media (max-width: 650px) {
+        img {
+          width: 80%;
+        }
         div {
           flex-wrap: wrap;
         }
