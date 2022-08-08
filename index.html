@@ -1,93 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order Now!</title>
-    <style>
-      html,
-      body,
-      * {
-        box-sizing: border-box;
-        width: 100%;
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Now!</title>
+  <style>
+    html,
+    body,
+    * {
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 30px;
+      flex-wrap: wrap;
+    }
+
+    img {
+      flex-basis: 25%;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    a {
+      text-align: center;
+      text-decoration: none;
+      font-size: 2em;
+    }
+
+    @media (max-width: 800px) {
+      img {
+        padding: 4px;
       }
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+
+    @media (max-width: 650px) {
+      img {
+        width: 80%;
       }
+
       div {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin: 30px;
         flex-wrap: wrap;
       }
-      img {
-        flex-basis: 25%;
-        padding: 20px;
-      }
-      h2 {
-        text-align: center;
-      }
-      a {
-        text-align: center;
-        text-decoration: none;
-        font-size: 2em;
-      }
-      @media (max-width: 800px) {
-        img {
-          padding: 4px;
-        }
-      }
-      @media (max-width: 650px) {
-        img {
-          width: 80%;
-        }
-        div {
-          flex-wrap: wrap;
-        }
-      }
-    </style>
-  </head>
-  <body>
-   <!-- <div>
-      <img src="./images/fries1.jpg" />
-      <img src="./images/fries2.jpg" />
-      <img src="./images/fries3.jpg" />
-      <img src="./images/fries4.jpg" />
-    </div>
-    <h2>بوكس بطاطس لندن</h2>
-    <div>
-      <img src="./images/omAli1.jpg" />
-      <img src="./images/omAli2.jpg" />
-      <img src="./images/omAli3.jpg" />
-    </div>
-    <h2>بوكس ام علي</h2>
-    <div>
-      <img src="./images/burger1.jpg" />
-      <img src="./images/burger2.jpg" />
-      <img src="./images/burger3.jpg" />
-      <img src="./images/burger4.jpg" />
-      <img src="./images/burger5.jpg" />
-      <img src="./images/burger6.jpg" />
-      <img src="./images/burger7.jpg" />
-    </div>
-    <h2>بوكس البرجر</h2>
-    <div>
-      <img src="./images/pizza1.jpg" />
-      <img src="./images/pizza2.jpg" />
-      <img src="./images/pizza3.jpg" />
-    </div>
-    <h2>بوكس البيتزا</h2>
-    <div>
-      <img src="./images/pomp1.jpeg" />
-    </div>
-    <h2>بوكس الشوكليت بومب</h2>
-    -->
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="image.jpeg">
     <div>
       <a href="https://wa.me/message/76SRWMWNS4WLK1">للطلب اضغط هنا</a>
     </div>
-  </body>
+</body>
+
 </html>
